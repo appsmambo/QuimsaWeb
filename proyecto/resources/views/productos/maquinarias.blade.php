@@ -39,8 +39,10 @@
         </div>
         <div class="col-md-5 text-center">
             <div class="shadow bg-white pt-4 mb-4">
-                <h2>SEYDELMANN</h2>
-                <img src="{{ asset('img/maquinarias/seydelmann.jpg') }}" class="img-fluid" alt="">
+                <a href="{{ url('productos/maquinarias/seydelmann') }}">
+                    <h2>SEYDELMANN</h2>
+                    <img src="{{ asset('img/maquinarias/seydelmann.jpg') }}" class="img-fluid" alt="">
+                </a>
             </div>
         </div>
     </div>
