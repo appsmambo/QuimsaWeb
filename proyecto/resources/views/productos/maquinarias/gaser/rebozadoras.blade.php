@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('title', 'Rebozadoras GASER :: Quimsa - Pasión por la calidad')
+@section('title', 'Rebozadoras - GASER :: Quimsa - Pasión por la calidad')
 @section('body')
 <section class="container bg-white contenedor py-4 mb-4">
     <nav aria-label="breadcrumb">
@@ -17,7 +17,9 @@
             </h1>
         </div>
         <div class="col-md-4 text-center">
-            <img src="{{ asset('img/marcas/gaser.png') }}" alt="" class="img-fluid">
+            <a href="{{ url('/productos/maquinarias/gaser') }}">
+                <img src="{{ asset('img/marcas/gaser.png') }}" alt="" class="img-fluid">
+            </a>
         </div>
     </div>
     <div class="row py-4 border-bottom">
@@ -215,7 +217,7 @@
                 <img src="{{ asset('img/maquinarias/gaser/18_img1.jpg') }}" alt="Rebozadora-empanadora automática Mod. Practic 350" class="rounded img-fluid">
             </a>
             <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/k3wtCr3vxbQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/k3wtCr3vxbQ" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
         <div class="col-md-6">

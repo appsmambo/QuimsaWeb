@@ -204,6 +204,18 @@ footer {
 .breadcrumb-item+.breadcrumb-item::before {
     content:">";
 }
+.back-to-top {
+    background:#e0040b;
+    bottom:30px;
+    color:#fff;
+    cursor:pointer;
+    display:none;
+    position:fixed;
+    right:20px;
+}
+.back-to-top:hover {
+    color:#fff;
+}
 @media (max-width:767px) {
     .navbar-brand img {
         height:auto;
