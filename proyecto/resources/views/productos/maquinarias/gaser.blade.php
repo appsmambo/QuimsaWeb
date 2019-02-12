@@ -193,7 +193,7 @@
             </div>
         </div>
     </div>
-    <div class="row py-4 border-bottom">
+    <div class="row py-4">
         <div class="col-md-3">
             <div class="card h-100 d-inline-block">
                 <a href="{{ url('/productos/maquinarias/gaser/embutidora-continua') }}">

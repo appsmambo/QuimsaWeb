@@ -173,7 +173,6 @@
             </h5>
         </div>
     </div>
-
     <div id="minicamara3" class="row py-4 border-bottom">
         <div class="col-md-6">
             <h3 class="titulo">

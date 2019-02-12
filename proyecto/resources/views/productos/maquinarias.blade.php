@@ -33,8 +33,10 @@
     <div class="row justify-content-md-center">
         <div class="col-md-5 text-center">
             <div class="shadow bg-white pt-4 mb-4">
-                <h2>GIL</h2>
-                <img src="{{ asset('img/maquinarias/gil.jpg') }}" class="img-fluid" alt="">
+                <a href="{{ url('productos/maquinarias/gil') }}">
+                    <h2>GIL</h2>
+                    <img src="{{ asset('img/maquinarias/gil.jpg') }}" class="img-fluid" alt="">
+                </a>
             </div>
         </div>
         <div class="col-md-5 text-center">
@@ -57,8 +59,10 @@
         </div>
         <div class="col-md-5 text-center">
             <div class="shadow bg-white pt-4 mb-4">
-                <h2>KT</h2>
-                <img src="{{ asset('img/maquinarias/kt.jpg') }}" class="img-fluid" alt="">
+                <a href="{{ url('productos/maquinarias/kt') }}">
+                    <h2>KT</h2>
+                    <img src="{{ asset('img/maquinarias/kt.jpg') }}" class="img-fluid" alt="">
+                </a>
             </div>
         </div>
     </div>
